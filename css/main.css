@@ -4,19 +4,29 @@
   margin: 0px;
   padding: 0px;
 }
+[class*="col-"] {
+  height: 100px;
+}
 body {
   color: white;
 }
-header, .jumbotron {
+header, .jumbotron, main, footer {
   padding: 0 15% !important;
 }
 header {
   background-color: #2c3e50;
 }
-[class*="col-"] {
-  height: 100px;
-}
 .jumbotron {
   background-color: #1abc9c;
   text-align: center;
+  margin: 0 !important;
+}
+section{
+  background-color: red;
+  text-align: center;
+  color: black;
+}
+section:nth-child(even) {
+  background: #1abc9c;
+  color: white;
 }
