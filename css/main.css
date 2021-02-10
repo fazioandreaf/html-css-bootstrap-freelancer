@@ -1,29 +1,67 @@
 /* modo errato del sistemare il container fluid. approfondire lo studio sul sito di bootstrap */
-
-.container-fluid {
-  margin: 0px;
-  padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+  font-family: "Montserrat",sans-serif ;
 }
-/* debug height */
+.container-massimo {
+  width: 100%;
+}
+/* debug height
 [class*="col-"] {
   height: 100px;
-}
+}*/
 body {
   color: white;
 }
-header, .jumbotron, section, footer {
+/* header, .jumbotron, section, footer {
   padding: 0 15% !important;
-}
-header {
+} */
+nav {
   background-color: #2c3e50;
+  line-height: 80px;
+  height: 80px;
+}
+#slogan {
+  font-size: 2em;
+}
+.d-none-lg {
+  display: none;
+}
+header .dropdown .btn {
+  background-color: #148f77;
+}
+header .btn>ul {
+  right: 0% ;
+  left: inherit;
+}
+@media screen and (max-width:768px) {
+  .d-none-md {
+    display: none;
+  }
+  .d-none-lg, #dropdownMenu1:hover .dropdown-menu {
+    display: block;
+  }
 }
 .jumbotron {
   background-color: #1abc9c;
   text-align: center;
-  margin: 0 !important;
+  padding-top: 80px;
+}
+.img-size {
+  height: 240px;
+}
+.barra-spaziatrice {
+  margin: 10px 0px;
+}
+.v-align {
+  vertical-align: middle;
+}
+.divider-custom-line {
+  background-color: white;
+  display: inline-block;
+  padding: 0.1em 5em;
 }
 section{
-  background-color: red;
   text-align: center;
   color: black;
 }
@@ -38,5 +76,39 @@ footer {
 .last-footer {
   background-color: #2c3e50;
   text-align: center;
-
+}
+h2, header, .col-xs-12>span {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+a:first-of-type, h2 {
+  font-weight: bolder;
+}
+.card {
+  width: 31%;
+  margin: 1%;
+  border-radius: 5px;
+  height: 200px;
+}
+.fucsia {
+  background-color: #ba4b63
+}
+.azzure {
+  background-color: #1ea4b6
+}
+.black {
+  background-color: #140f0f;
+}
+.blue {
+  background-color: #1c83c1;
+}
+.dark-blue {
+  background-color: #0e38b5;
+}
+.brown {
+  background-color: #ccb2a3;
 }
