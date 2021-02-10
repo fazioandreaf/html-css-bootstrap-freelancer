@@ -39,7 +39,7 @@ header .btn>ul {
   right: 0% ;
   left: inherit;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .d-none-md {
     display: none;
   }
@@ -68,11 +68,17 @@ header .btn>ul {
 }
 section{
   text-align: center;
-  color: black;
+  color: #2c3e50 ;
+}
+section .divider-custom-line {
+  background-color: #2c3e50 ;
 }
 section:nth-child(even) {
   background: #1abc9c;
-  color: white;
+  color: white ;
+}
+section:nth-child(even) .divider-custom-line {
+  background-color: white ;
 }
 footer {
   background-color: #3a546d;
@@ -85,7 +91,7 @@ footer {
 h2, header, .col-xs-12>span {
   text-transform: uppercase;
 }
-a {
+a, a:hover{
   text-decoration: none;
   color: white;
   padding: 1em;
@@ -95,9 +101,13 @@ a:first-of-type, h2 {
 }
 .card {
   width: 31%;
-  margin: 1%;
+  margin: 4% 1%;
   border-radius: 5px;
-  height: 200px;
+  height: 160px;
+}
+.card>img {
+  height: 100%;
+  object-fit: fill;
 }
 .fucsia {
   background-color: #ba4b63
@@ -116,4 +126,7 @@ a:first-of-type, h2 {
 }
 .brown {
   background-color: #ccb2a3;
+}
+.m-top {
+  margin-top: 10px;
 }
