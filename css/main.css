@@ -100,32 +100,8 @@ a:first-of-type, h2 {
   font-weight: bolder;
 }
 .card {
-  width: 31%;
-  margin: 4% 1%;
-  border-radius: 5px;
-  height: 160px;
-}
-.card>img {
-  height: 100%;
-  object-fit: fill;
-}
-.fucsia {
-  background-color: #ba4b63
-}
-.azzure {
-  background-color: #1ea4b6
-}
-.black {
-  background-color: #140f0f;
-}
-.blue {
-  background-color: #1c83c1;
-}
-.dark-blue {
-  background-color: #0e38b5;
-}
-.brown {
-  background-color: #ccb2a3;
+  margin: 3% 0%;
+  border-radius: 10%;
 }
 .m-top {
   margin-top: 10px;
