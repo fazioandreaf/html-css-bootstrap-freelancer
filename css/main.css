@@ -1,4 +1,3 @@
-/* modo errato del sistemare il container fluid. approfondire lo studio sul sito di bootstrap */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body {
   font-family: "Montserrat",sans-serif ;
@@ -6,25 +5,17 @@ body {
 .container-massimo {
   width: 100%;
 }
-/* debug height
-[class*="col-"] {
-  height: 100px;
-}*/
-/* header, .jumbotron, section, footer {
-padding: 0 15% !important;
-} */
 body {
   color: white;
 }
 nav {
   background-color: #2c3e50;
   line-height: 80px;
-  height: 80px;
 }
 .d-none-lg {
   display: none;
 }
-h1  {
+h1, h4 {
   font-weight: bolder;
 }
 header .dropdown .btn  {
@@ -45,7 +36,6 @@ header .btn>ul {
 .jumbotron {
   background-color: #1abc9c;
   text-align: center;
-  padding-top: 80px;
 }
 .img-size {
   height: 240px;
@@ -77,13 +67,12 @@ section:nth-child(even) .divider-custom-line {
 }
 footer {
   background-color: #3a546d;
-  text-align: center;
 }
 .last-footer {
   background-color: #2c3e50;
   text-align: center;
 }
-h2, header, .col-xs-12>span {
+h2, header {
   text-transform: uppercase;
 }
 header a {
@@ -125,6 +114,9 @@ a:first-of-type, h2 {
 .m-down {
   margin-bottom: 10px;
 }
+.padding-top-bottom, section, header {
+  padding: 4rem;
+}
 section .container .btn  {
   background-color: rgba(0,0,0,0);
   border: 1px solid white;
@@ -146,4 +138,18 @@ section .container .b-g-c-g {
 section .container .b-g-c-g:hover {
   background-color: #159a80;
   color: white;
+}
+footer .around {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin: 5px;
+}
+footer .footer-last-call {
+  color: #1abc9c;
+}
+footer .footer-last-call:hover {
+  color: #159a80;
+  text-decoration: underline;
 }
