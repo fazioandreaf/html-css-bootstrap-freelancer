@@ -24,6 +24,9 @@ nav {
 .d-none-lg {
   display: none;
 }
+h1  {
+  font-weight: bolder;
+}
 header .dropdown .btn  {
   background-color: #148f77;
 }
@@ -130,4 +133,17 @@ section .container .btn  {
 section .container .btn:hover {
   background-color: white;
   color: black;
+}
+.font-size-grow {
+  font-size: 1.4em;
+}
+.remove-border {
+  border: inherit;
+}
+section .container .b-g-c-g {
+  background-color: #1abc9c;
+}
+section .container .b-g-c-g:hover {
+  background-color: #159a80;
+  color: white;
 }
